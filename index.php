@@ -951,7 +951,12 @@ if (isset($_GET['delete_cookie'])) {
     function closeCookieNotice() {
         document.getElementById('cookieNotice').style.display = 'none';
         localStorage.setItem('cookieAccepted', 'true');
+
+
+
+
+
+        
     }
     </script>
 </body>
-</html>
